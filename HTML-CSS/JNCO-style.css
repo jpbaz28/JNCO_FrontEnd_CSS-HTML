@@ -1,0 +1,50 @@
+/* html{
+    background-color: black;
+} */
+
+/* ul{
+    background:wheat;
+    height:200px;
+    text-align:center;
+}
+
+li{height:200px;
+    display:inline-flex;
+    margin-right:10px;
+    background:green;
+    color:white;
+    align-items:center;
+} */
+
+.header1{
+    color: lightgreen;
+}
+
+.header2{
+    color: orangered;
+}
+
+.small-text{
+    color:grey;
+}
+
+.container {  display: grid;
+    grid-template-columns: 18.9fr 0.1fr 0.1fr;
+    grid-template-rows: 0.2fr 0.2fr 2.6fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Title . ."
+      "subtitle . ."
+      "body . .";
+  }
+  
+  .Title { grid-area: Title; }
+  
+  .subtitle { grid-area: subtitle; }
+  
+  .body { grid-area: body; 
+
+}
+  
+  
